@@ -1,0 +1,65 @@
+/* style.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  background: #333;
+  padding: 10px;
+  color: #fff;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li a.active {
+  font-weight: bold;
+}
+
+section.services {
+  padding: 20px;
+}
+
+section.services h2 {
+  color: #333;
+}
+
+.service {
+  margin-bottom: 20px;
+}
+
+.service h3 {
+  color: #333;
+}
+
+.service img {
+  width: 100vh;
+  height: 50vh;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  margin: auto;
+}
+
+footer {
+  background: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
